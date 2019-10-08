@@ -1,0 +1,16 @@
+
+.Hero {
+    &Default , &Rooms {
+        min-height: 30rem;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &Default { background-image: url("../../images/defaultBcg.jpeg"); }
+
+    &Rooms { background-image: url("../../images/room-2.jpeg"); }
+}
+ 

@@ -1,11 +1,8 @@
 import React from 'react'
+import HeroRoom from '../HeroRoom/HeroRoom'
 
 const Error = () => {
-    return (
-        <div>
-            Hello from Error
-        </div>
-    )
+    return <HeroRoom hero="defaultHero"/>
 }
 
 export default Error;
