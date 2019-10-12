@@ -110,6 +110,7 @@ h6 {
   height: 5px;
   background: var(--primaryColor);
   margin: 1.7rem auto;
+  /* z-index: 5; */
 }
 .banner p {
   font-size: 1.2rem;
