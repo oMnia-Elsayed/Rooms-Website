@@ -1,16 +1,22 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Banner from '../Banner/Banner';
-import Hero from '../HeroRoom/HeroRoom';
-
-export default function Home() {
+import HeroRoom from '../HeroRoom/HeroRoom';
+import Services from '../Services/Services';
+import FeaturedRoom from '../FeaturedRoom/FeaturedRoom';
+const Home = () => {
     return (
-        <Hero hero="HeroDefault">
-            <Banner maintitle="Luxurious Rooms" subtitle="deluxe rooms starting at $299">
+        <>
+        <HeroRoom hero="HeroDefault">
+            <Banner title="Luxurious Rooms" subtitle="deluxe rooms starting at $299">
                 <NavLink to="/rooms" className="btn-primary">Our Rooms</NavLink>
             </Banner>
-            <div>xsh</div>
-        </Hero>
+        </HeroRoom>
+        <Services />
+        <FeaturedRoom />
+        </>
     )
 }
+
+export default Home;
 
