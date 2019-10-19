@@ -1,4 +1,5 @@
 import React from "react";
+import './Banner.scss';
 const Banner = ({ children, title, subtitle }) => {
   return (
     <div className="banner">

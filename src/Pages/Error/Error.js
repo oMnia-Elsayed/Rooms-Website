@@ -1,7 +1,7 @@
 import React from 'react'
-import HeroRoom from '../HeroRoom/HeroRoom'
+import HeroRoom from '../../Components/HeroRoom/HeroRoom'
 import { NavLink } from 'react-router-dom';
-import Banner from '../Banner/Banner';
+import Banner from '../../Components/Banner/Banner';
 
 const Error = () => {
     return <HeroRoom hero="HeroDefault">
