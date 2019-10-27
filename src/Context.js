@@ -55,7 +55,7 @@ export default class RoomProvider extends Component {
     }
 
     handleChange = event => {
-        const type = event.target.type;
+        // const type = event.target.type;
         const name = event.target.name;
         const value = event.target.type ==="checkbox" ? event.target.checked : event.target.value;
         this.setState({
@@ -66,7 +66,7 @@ export default class RoomProvider extends Component {
     }
 
     filterRooms = () => {
-        let { rooms,type, capacity, price, minPrice, maxPrice, minSize,
+        let { rooms,type, capacity, price, minSize,
             maxSize, breakfast, pets} = this.state; 
 
         let tempRooms = [...rooms];

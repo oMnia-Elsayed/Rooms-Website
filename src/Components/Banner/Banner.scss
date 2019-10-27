@@ -8,7 +8,7 @@
   background: rgba(0, 0, 0, 0.5);
   color: var(--mainWhite);
   padding: 2rem;
-  width: 50rem;
+  // width: 50rem !important;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
@@ -31,22 +31,21 @@
 }
 
 @media screen and (min-width: 576px) {
-
-  // .banner {
-  //   padding: 2rem 3rem;
-  // }
   .banner h1 {
     font-size: 3rem;
   }
 }
 
 @media screen and (min-width: 992px) {
-
-  // .banner {
-  //   padding: 2rem 6rem;
-  // }
   .banner h1 {
     font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 415px) { 
+  .banner {
+    padding: 0.5rem;
+    width: 20rem;
   }
 }
 

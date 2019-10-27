@@ -8,13 +8,13 @@ export default class NavBar extends Component {
         return (
             <Menu mode="horizontal">
                 <Menu.Item>
-                    <img src={ logo } alt="logo"/>
+                    <img src={logo} alt="logo" />
                 </Menu.Item>
-                <Menu.Item> 
-                    <NavLink to="/">Home</NavLink> 
+                <Menu.Item>
+                    <NavLink to="/">Home</NavLink>
                 </Menu.Item>
-                <Menu.Item> 
-                    <NavLink to="/rooms">Rooms</NavLink> 
+                <Menu.Item>
+                    <NavLink to="/rooms">Rooms</NavLink>
                 </Menu.Item>
             </Menu>
         );
